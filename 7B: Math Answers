@@ -1,0 +1,14 @@
+
+
+                                CODING EXERCISE: Eggsactly
+                                
+Egg cartons each hold exactly 12 eggs. Write a program which reads an integer number of eggs from input(),
+then prints out two numbers: how many cartons can be filled by these eggs, and
+how many eggs will be left over. For example, the output corresponding to 27 eggs is
+
+
+
+eggs = (int(input()))
+print(eggs // 12) #Performs a division, showing the result and ignoring the  remainder, giving you the exact number of cartons that can be filled by the "eggs" variable
+print(eggs % 12)  #Performs a second division, this time showing only the remainder, giving you the exact number of eggs that will be left over
+
