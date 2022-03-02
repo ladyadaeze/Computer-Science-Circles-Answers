@@ -4,11 +4,48 @@
                                 
 Egg cartons each hold exactly 12 eggs. Write a program which reads an integer number of eggs from input(),
 then prints out two numbers: how many cartons can be filled by these eggs, and
-how many eggs will be left over. For example, the output corresponding to 27 eggs is
+how many eggs will be left over. 
 
 
-
+Answer:
 eggs = (int(input()))
 print(eggs // 12) #Performs a division, showing the result and ignoring the  remainder, giving you the exact number of cartons that can be filled by the "eggs" variable
 print(eggs % 12)  #Performs a second division, this time showing only the remainder, giving you the exact number of eggs that will be left over
+
+
+
+                                Coding Exercise: Divisibility
+Write a program that reads two positive integers a and b on separate lines. 
+If a is divisible by b, print the message "divisible". Otherwise, 
+print the message "not divisible".
+
+
+Answer:
+number_one = (int(input()))
+number_two = (int(input()))
+
+if number_one % number_two == 0:
+   print("divisible")
+else:
+   print("not divisible")
+   
+   
+   
+                                  Coding Exercise: Pizza Circles
+Your friends have eaten their square pizzas and are now ordering a round pizza.
+Write a program to calculate the area of this circular pizza. 
+The input is a float r, which represents the radius in cm. 
+The output should be the area in cm2, calculated using the formula  
+A=pi*r2. Use Python's pi feature instead of typing 3.1415...
+
+
+
+
+
+
+
+
+
+
+
 
