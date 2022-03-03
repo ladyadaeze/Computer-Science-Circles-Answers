@@ -40,8 +40,12 @@ A=pi*r2. Use Python's pi feature instead of typing 3.1415...
 
 
 
+Answer:
 
-
+import math
+r = float(input())
+area = math.pi * r * r
+print(area)
 
 
 
