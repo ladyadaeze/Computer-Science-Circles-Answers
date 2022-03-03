@@ -32,6 +32,7 @@ else:
    
    
                                   Coding Exercise: Pizza Circles
+                                  
 Your friends have eaten their square pizzas and are now ordering a round pizza.
 Write a program to calculate the area of this circular pizza. 
 The input is a float r, which represents the radius in cm. 
@@ -47,9 +48,22 @@ r = float(input())
 area = math.pi * r * r
 print(area)
 
+                                        Coding Exercise: Geometric Mean
 
 
+The geometric mean of two numbers a and b is the number √ab
 
+(It is used to compare aspect ratios of display screens and describe the
+average growth rate of a population.) Write a program that reads two lines 
+of positive float from input, and outputs their geometric mean.
+
+
+Answer:
+
+import math
+a = float(input())
+b = float(input())
+print(math.sqrt(a * b))
 
 
 
